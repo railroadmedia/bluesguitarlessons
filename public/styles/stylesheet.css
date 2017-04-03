@@ -312,7 +312,7 @@ body {
 	.content-box .lesson-card a:hover {
 		 transition: all 0.5s;
 	    -webkit-transition: all 0.5s;
-		padding: 80px 60px 0px 15px;
+		padding: 70px 60px 0px 15px;
 	}
 	.content-box .lesson-card .lesson-card-step {
 		color:#ccc;
@@ -326,7 +326,7 @@ body {
 	    -webkit-transition: all 0.5s;
 	}
 	.content-box .lesson-card:hover .lesson-card-step {
-		top:60px;
+		top:50px;
 	}
 	.content-box .lesson-card .lesson-card-title {
 		color:#fff;
