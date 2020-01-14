@@ -648,7 +648,7 @@ a.resource-btn.christmas {
 }
 
 /* FORM STYLING */
-input[type="text"] {
+input[type="email"] {
     background:none repeat scroll 0 0 #FFF;
     border:none;
     color:#424242;
@@ -664,11 +664,11 @@ input[type="text"] {
     border-radius:7px;
 }
 
-input[type="text"]:hover {
+input[type="email"]:hover {
     color:#999;
 }
 
-.sendMe {
+input[type="submit"] {
     background-color:#00C9AC;
     border:none;
     height:56px;
@@ -684,8 +684,8 @@ input[type="text"]:hover {
     -webkit-appearance:none;
 }
 
-.sendMe:hover,
-.sendMe:active {
+input[type="submit"]:hover,
+input[type="submit"]:active {
     background-color:#00E0BF;
 }
 
@@ -703,14 +703,14 @@ input[type="text"]:hover {
         margin:0 auto 5px auto;
     }
 
-    input[type="text"] {
+    input[type="email"] {
         font-size:17px;
         height:50px;
         margin:16px 0 10px 0;
         padding:0 0 0 12px;
     }
 
-    .sendMe {
+    input[type="submit"] {
         height:50px;
         margin:0;
         font-size:18px;
@@ -749,12 +749,12 @@ input[type="text"]:hover {
         margin:15px auto;
     }
 
-    input[type="text"] {
+    input[type="email"] {
         font-size:19px;
         height:56px;
     }
 
-    .sendMe {
+    input[type="submit"] {
         height:56px;
         font-size:20px;
     }
