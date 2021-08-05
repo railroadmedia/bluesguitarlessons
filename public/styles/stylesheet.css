@@ -570,83 +570,6 @@ a.resource-btn.christmas {
     }
 }
 
-/* SIGN UP BOX */
-
-.sign-up-box {
-    width:100%;
-    padding:20px;
-    margin:20px 0 0 0;
-    border-radius:5px;
-}
-
-.sign-up-box.BBC {
-    background-color:#AA0421;
-}
-
-.sign-up-box.CCS {
-    background-color:#2772BF;
-}
-
-.sign-up-box.PCC {
-    background-color:#E6411C;
-}
-
-.sign-up-box.SS {
-    background-color:#7F3F98;
-}
-
-.sign-up-box.TUGT {
-    background: #444 url(https://s3.amazonaws.com/guitareo/gl-sales/texture.jpg);
-}
-
-.sign-up-box.TUGT .free-badge {
-    position:absolute;
-    z-index:2;
-    left:-5px;
-    top:-20px;
-    height:90px;
-    width:90px;
-    background-image:url(/images/TUGT/free-badge.svg);
-    background-size:cover;
-    border-radius:5px 0 0 0;
-}
-
-.sign-up-box img {
-    width:100%;
-}
-
-.sign-up-box .sign-up-header {
-    margin-bottom:20px;
-}
-
-.sign-up-box .free-series {
-    width:80%;
-    display:block;
-    margin:15px auto 5px auto;
-}
-
-.sign-up-box .TUGT-product {
-    width:100%;
-    display:block;
-    margin:0 auto 5px auto;
-}
-
-.sign-up-box .TUGT-logo {
-    display:block;
-    margin:0 auto;
-    width:60%;
-}
-
-.sign-up-box.TUGT p {
-    color:#FFF;
-    font-size:14px;
-    font-weight:300;
-    text-align:center;
-    width:70%;
-    margin:10px auto 10px auto;
-    display:block;
-}
-
 /* FORM STYLING */
 input[type="email"] {
     background:none repeat scroll 0 0 #FFF;
@@ -690,18 +613,6 @@ input[type="submit"]:active {
 }
 
 @media (min-width:768px) {
-    .sign-up-box {
-        padding:30px;
-    }
-
-    .sign-up-box .sign-up-header {
-        margin-bottom:20px;
-    }
-
-    .sign-up-box .free-series {
-        width:80%;
-        margin:0 auto 5px auto;
-    }
 
     input[type="email"] {
         font-size:17px;
@@ -715,39 +626,9 @@ input[type="submit"]:active {
         margin:0;
         font-size:18px;
     }
-
-    .sign-up-box .TUGT-product {
-        width:100%;
-        margin:0 auto 5px auto;
-    }
-
-    .sign-up-box .TUGT-logo {
-        width:100%;
-        margin-top:10px;
-    }
-
-    .sign-up-box.TUGT p {
-        font-size:18px;
-        width:90%;
-        margin:15px auto 0 auto;
-    }
-
-    .sign-up-box.TUGT .free-badge {
-        left:-15px;
-        top:-30px;
-        height:110px;
-        width:110px;
-    }
 }
 
 @media (min-width:992px) {
-    .sign-up-box {
-        padding:40px;
-    }
-
-    .sign-up-box .free-series {
-        margin:15px auto;
-    }
 
     input[type="email"] {
         font-size:19px;
@@ -759,30 +640,7 @@ input[type="submit"]:active {
         font-size:20px;
     }
 
-    .sign-up-box .TUGT-logo {
-        width:80%;
-        margin-top:0;
-    }
 
-    .sign-up-box.TUGT p {
-        font-size:20px;
-        width:70%;
-        margin:15px auto 0 auto;
-    }
-
-    .sign-up-box.TUGT .free-badge {
-        left:-25px;
-        top:-40px;
-        height:140px;
-        width:140px;
-    }
-}
-
-@media (min-width:1200px) {
-    .sign-up-box.TUGT p {
-        font-size:22px;
-        margin:20px auto 0 auto;
-    }
 }
 
 /* FOOTER */
